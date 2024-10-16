@@ -1,7 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : M Nikhil
+
+Roll no :212222230095
+
+Date of experiment : 16-10-2024
 
 
 
@@ -78,24 +80,117 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
+```
+ORG 100h
+MOV ax,11h;
+MOV bx,20h;
+ADD ax,bx;
+HLT
+```
 
 
 ## Output  
+![image](https://github.com/user-attachments/assets/1f8716da-ed9f-4ccf-b657-f08bbe0b4bad)
+
  
 ## Subtraction   of 8 bit numbers  ALP 
+```
+ORG 100h
+MOV ax,31h;
+MOV bx,20h;
+SUB ax,bx;
+HLT
+```
  
 ## Output  
+
+![image](https://github.com/user-attachments/assets/1901a10a-b120-4287-a28e-13a0027414bd)
+
 ## Multiplication alp 
+
+```
+ORG 100h
+MOV ax,31h;
+MOV bx,20h;
+MUL bx;
+HLT
+```
  ## Output  
+![image](https://github.com/user-attachments/assets/9c8ad22d-7a5a-4883-8ff3-8cdce0c0077f)
 
 
 ## Division alp 
+```
+ORG 100h
+MOV ax,10h;
+MOV bx,05h;
+DIV bx;
+HLT
+```
 
 ## Output  
+![image](https://github.com/user-attachments/assets/292f3adf-bb87-41a9-999b-c458bdeca778)
+
+## Program for Logical Operations
+## AND
+```
+org 100h
+
+MOV BX,04H; 
+MOV AX,08H;
+OR BX,AX;
+MOV [200H],AX;
+
+ret
+```
+## OUTPUT
+<img width="882" alt="image" src="https://github.com/user-attachments/assets/694a09cb-2351-41f7-a68e-53e19b78e332">
+
+## OR
+```
+org 100h
+
+MOV BX,04H; 
+MOV AX,08H;
+OR AX,BX;
+MOV [700H],AX;
+
+ret
+```
+## OUTPUT
+<img width="880" alt="image" src="https://github.com/user-attachments/assets/9cc817c3-1eff-4b0d-ad34-06fca6cc3f54">
+
+## XOR
+```
+org 100h
+
+MOV BX,014H; 
+MOV AX,08H;
+XOR AX,BX;
+MOV [700H],AX;
+
+ret
+```
+## OUTPUT
+<img width="884" alt="image" src="https://github.com/user-attachments/assets/01884920-6fec-404b-b06d-76fc280f5384">
+
+## NOT
+```
+org 100h
+
+MOV AX,04H;
+NOT AX;
+MOV [400],AX;
+ret
+```
+## OUTPUT
+<img width="797" alt="image" src="https://github.com/user-attachments/assets/0a324688-2d83-4588-a484-a80e919f1002">
+
+
 
 
 ## Result :
+Thus, To write and execute ALP on fundamental arithmetic operations and logical operations has done is successful.
  
 
 
